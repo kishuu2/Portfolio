@@ -1,0 +1,469 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+  ::-webkit-scrollbar{
+    display: none;
+  }
+  h1,h2 {
+    font-weight: 400;
+  }
+  #one { 
+    font-size: 29px; 
+    font-family: 'Raleway', sans-serif;
+    background: #000000;
+    color: powderblue;
+    text-shadow: 0 0 2px paleturquoise , 0 0 3px purple;
+  }
+
+.me{
+  display: flex;
+  width: 100%;
+  gap: 30px;
+}
+
+
+  .pic1{
+    border-radius: 50%;
+    box-shadow: 0 0 14px purple,0 0 18px purple , 0 0 24px lightseagreen;
+    border: 7px solid lightseagreen;
+    width: 450px;
+    height: 450px;
+  }
+
+  #sec1{
+    padding: 0px;
+    margin-top: 100px;
+  }
+
+.navbar{
+  background-color: #000000;
+}
+  
+
+  #first{
+    color: lightcyan;
+    font-size: 40px;
+  }
+  i{
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-style: normal;
+    color: purple;
+  }
+
+  .icon-1 {
+    text-decoration: none;
+    color: aliceblue;
+  }
+
+  .main-sec {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  body{
+    width: 100%;
+  }
+
+  .one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  body {
+    margin: 0%;
+    background-color: #000000;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    margin: 0%;
+  }
+
+  strong {
+    color: red;
+  }
+
+  .icon{
+      padding: 16px;
+  }  
+
+  .main{
+    width: 100%;
+    padding: 10px;
+  }
+  .big-2{
+    font-size: 18px;
+  }
+
+  .first-btn{
+    border: 2px solid lightseagreen;
+    color: aliceblue;
+    width: 30%;
+    box-shadow: 0 0 12px purple;
+    transition: .5s all ease;
+  }
+  .first-btn:hover{
+    background-color: lightseagreen;
+    color: black;
+    transition: .5s all ease;
+    font-family: "poppins" ,sans-serif;
+    font-weight: 500;
+  }
+
+  .text-follow{
+    font-size: 18px;
+  }
+  .scroll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .pics2{
+    border-radius: 50%;
+    box-shadow: 0 0 4px purple , 0 0 8px purple;
+    animation: pulse 2s linear 1s infinite;
+  }
+
+  .pics2:hover{
+    box-shadow: 0 0 4px lightseagreen , 0 0 8px lightseagreen;
+    transition: .4s all ease;
+  }
+
+  .details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .bar{
+    position: relative;
+    border: 3px solid purple;
+    border-radius: 20px;
+    box-shadow: 0 0 2px purple, 0 0 4px lightskyblue;
+  }
+
+  .bar div{
+    position: relative;
+    width: 0;
+    height: 12px;
+    border-radius: 10px;
+    background-color: darkcyan;
+  }
+
+  .main-sec1:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  #html-bar{
+    animation: html-fill 2s forwards;
+  }
+  #css-bar{
+    animation: css-fill 3s forwards;
+  }
+  #js-bar{
+    animation: js-fill 4s forwards;
+  }
+  #jquery-bar{
+    animation: jquery-fill 5s forwards;
+  }
+  #python-bar{
+    animation: python-fill 2s forwards;
+  }
+  #java-bar{
+    animation: java-fill 3s forwards;
+  }
+  #node-bar{
+    animation: node-fill 3s forwards;
+  }
+  #mongo-bar{
+    animation: mongo-fill 2s forwards;
+  }
+  #oracle-bar{
+    animation: oracle-fill 3s forwards;
+  }
+  #my-bar{
+    animation: my-fill 4s forwards;
+  }
+
+  @keyframes mongo-fill{
+    100%{
+      width: 50%;
+    }
+  }
+  @keyframes my-fill{
+    100%{
+      width: 48%;
+    }
+  }
+  @keyframes oracle-fill{
+    100%{
+      width: 70%;
+    }
+  }
+  @keyframes python-fill{
+    100%{
+      width: 60%;
+    }
+  }
+  @keyframes java-fill{
+    100%{
+      width: 72%;
+    }
+  }
+  @keyframes node-fill{
+    100%{
+      width: 79%;
+    }
+  }
+  @keyframes html-fill{
+    100%{
+      width: 90%;
+    }
+  }
+  @keyframes css-fill{
+    100%{
+      width: 75%;
+    }
+  }
+  @keyframes js-fill{
+    100%{
+      width: 72%;
+    }
+  }
+  @keyframes jquery-fill{
+    100%{
+      width: 80%;
+    }
+  }
+
+.progress-bar{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px purple , 0 0 10px lightseagreen;
+  background: radial-gradient(closest-side, black 79%, transparent 80% 100%),conic-gradient(darkcyan 75%, purple 25%);
+}
+
+.progress-bar2{
+  width: 160px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 5px purple , 0 0 10px lightseagreen;
+  background: radial-gradient(closest-side, black 79%, transparent 80% 100%),conic-gradient(darkcyan 85%, purple 15%);
+}
+
+.progress-bar3{
+  width: 160px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 5px purple , 0 0 10px lightseagreen;
+  background: radial-gradient(closest-side, black 79%, transparent 80% 100%),conic-gradient(darkcyan 70%, purple 30%);
+}
+
+
+.person-me{
+  display: flex;
+  gap: 50px;
+}
+.modal-body,.modal-footer,.modal-header{
+  background-color: #000000;
+  color: white;
+}
+#modal2{
+  display: flex;
+  gap: 80px;
+}
+
+.other-skill{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
+  gap: 10px;
+  align-items: center; 
+}
+.ca1{
+  background-color: #000000;
+  border: 2px solid purple;
+  color: white;
+  box-sizing: border-box;
+  box-shadow: 0 0 4px lightseagreen, 0 0 8px purple;
+}
+.ca1:hover{
+  transition: .3s all ease-in-out;
+  background-color: darkmagenta;
+  border-radius: 25px;
+}
+#other-pro{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+.c1{
+  background-color: #000000;
+  width: 100%;
+}
+
+.c1:hover{
+  border-top: 2px solid lightseagreen;
+  transition: .5s all ease;
+  box-shadow: 0 0 8px purple, 0 0 12px lightblue;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.rate{
+  color: magenta;
+}
+.simple-blank{
+  display: flex;
+}
+.second-btn{
+  border: 2px solid purple;
+  font-family: "poppins" ,sans-serif;
+  color: white;
+  font-size: 16px;
+  box-shadow: 0 0 5px lightseagreen,0 0 10px purple;
+}
+.about{
+  padding: 19px;
+}
+
+.second-btn:hover{
+  background-color: lightseagreen;
+  transition: .3s all ease;
+  font-weight: 500;
+  box-shadow: 0 0 2px lightseagreen,0 0 4px purple;
+}
+.company{
+  background-color:  #000000;
+  width: 300px;
+  border-radius: 50%;
+  border:2px solid lightseagreen;
+  animation: pulse 2s linear 1s infinite;
+  box-shadow: 0 0 8px magenta,0 0 14px purple , 0 0 20px lightseagreen;
+}
+
+#c1{
+  background-color: #000000;
+}
+
+@keyframes pulse{
+  0%{
+    box-shadow: 0 0 52px lightseagreen, inset 0 0 52px lightseagreen;
+  }
+  50%{
+    box-shadow: 0 0 56px purple, inset 0 0 54px purple ;
+  }
+  100%{
+    box-shadow: 0 0 52px lightseagreen, inset 0 0 52px lightseagreen;
+  }
+}
+
+#second{
+  font-family:"poppins",sans-serif;
+  font-size: 29px;
+  color: purple;
+  font-weight: 500;
+  font-style: italic;
+  text-shadow: 0 0 2px lightblue;
+}
+#info2{
+  padding: 0%;
+}
+#info{
+  background-color: #000000;
+  color: aliceblue;
+  border: 2px solid purple;
+  width: 100%;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-family: "poppins" , sans-serif;
+  box-shadow: 0 0 8px magenta, 0 0 12px lightseagreen;
+}
+b{
+  font-size:20px;
+}
+.comment{
+  display: flex;
+  justify-content: center;
+}
+
+footer{
+  background-color: #000000;
+  border-top: 1px solid lightseagreen;
+}
+.skills{
+  padding: 20px;
+}
+.projects{
+  padding: 25px;
+}
+
+@media  screen and (max-width: 500px) {
+  body{
+    width: 100%;
+  }
+  .main-sec{
+    width: 100%;
+  }
+  #first{
+    font-size: 22px;
+  }
+  #one{
+    font-size: 23px;
+  }
+  #res-btn{
+    width: 50%;
+  }
+  #res-btn:hover{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+  }
+  #sec1{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .pic1{
+    width: 100%;
+    height: 350px;
+    padding: 0;
+  }
+
+  .skills{
+    padding: 10px;
+    width: 100%;
+  }
+  .person-me{
+    width: 100%;
+    display: flex;
+    scroll-snap-type: x mandatory;
+    overflow: scroll;
+  }
+  .person-me #first-snap{
+    flex: 0 0 200px;
+    width: 100%;
+  }
+  .projects{
+    padding: 10px;
+  }
+  .comment{
+    padding: 0;
+  }
+}
+.comment{
+  padding: 0px;
+}
